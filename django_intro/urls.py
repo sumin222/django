@@ -30,7 +30,7 @@ urlpatterns = [
     # int : 0 or 양의 정수
     # slug : 문자, 숫자, _
     
-    path('todo/', include('todo.urls'))
+    path('todos/', include('todo.urls'))
 
 
 ]
